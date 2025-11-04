@@ -1,0 +1,30 @@
+.policy-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.policy-container {
+  background: #fff;
+  max-width: 800px;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.policy-container h1 {
+  color: #0a2440;
+}
+
+.policy-container section {
+  margin-top: 2rem;
+}
+
+.ph1, .ph2 {
+  color: #0a2440;
+}
+
+.pp {
+  color: #333;
+  line-height: 1.6;
+}

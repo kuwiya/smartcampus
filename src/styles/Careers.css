@@ -1,0 +1,30 @@
+.careers-page {
+  text-align: center;
+  padding-top: 10rem;
+  color: white;
+}
+
+.careers-hero h1 {
+  color: #38bdf8;
+  margin-bottom: 0.5rem;
+}
+
+.careers-list {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+}
+
+.career-card {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+}
+
+.career-card .btn-primary {
+  margin-top: 0.8rem;
+}

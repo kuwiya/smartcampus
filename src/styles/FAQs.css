@@ -1,0 +1,35 @@
+.faq-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.faq-container {
+  width: 800px;
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+.faq-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.faq-item.active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 200px;
+  margin-top: 0.5rem;
+}

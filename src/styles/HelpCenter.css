@@ -1,0 +1,32 @@
+.help-center-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  color: #fff;
+}
+
+.help-center-container {
+  max-width: 900px;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.help-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.help-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.help-card:hover {
+  transform: translateY(-8px);
+}

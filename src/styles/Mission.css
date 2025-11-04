@@ -1,0 +1,31 @@
+.mission-page {
+  text-align: center;
+  padding-top: 10rem;
+  color: white;
+}
+
+.mission-hero h1 {
+  color: #38bdf8;
+  font-size: 2.5rem;
+}
+
+.mission-content {
+  margin: 2rem auto;
+  max-width: 750px;
+  padding: 2rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  text-align: left;
+}
+
+.mission-content ul {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.mission-content li {
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+}

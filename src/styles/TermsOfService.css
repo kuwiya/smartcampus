@@ -1,0 +1,22 @@
+.terms-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.terms-container {
+  background: #fff;
+  padding: 3rem;
+  max-width: 800px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.ph1, .ph2 {
+  color: #0a2440;
+}
+
+.pp {
+  color: #333;
+  line-height: 1.6;
+}
