@@ -20,18 +20,22 @@ const Home = () => {
         
         <div className="hero-content">
           <div className="hero-badge">
-            <span>🚀 Future of Nigerian Education is Here</span>
+            <span>🚀 Future of Education</span>
           </div>
           <h1 className="hero-title">
             Welcome to <span className="gradient-text">SmartCampus</span>
           </h1>
           <p className="hero-subtitle">
-            Transforming Nigerian schools into intelligent, connected digital campuses 
-            powered by AI, virtual learning, and smart automation for the next generation.
+            Transform your school into an intelligent, connected digital campus powered by AI, virtual learning, and smart automation for the next generation.
           </p>
           <div className="hero-actions">
-            <button className="btn-primary neon-glow">Get Started</button>
-            <button className="btn-outline">Watch Demo</button>
+            <button className="btn-primary neon-glow"><a className="null-link" href="/contact">Get Started</a></button>
+            <button className="btn-outline"><a 
+                                              href="https://www.youtube.com/" 
+                                              target="_blank" 
+                                              rel="noopener noreferrer" 
+                                              className="null-link"
+                                            >Watch Demo</a></button>
           </div>
           
           <div className="hero-stats">
@@ -54,7 +58,7 @@ const Home = () => {
       {/* Features Grid */}
       <section className="features">
         <div className="container">
-          <h2 className="section-title">Designed for Nigerian Education</h2>
+          <h2 className="section-title">Designed for Education</h2>
           <p className="section-subtitle">Tailored solutions addressing unique challenges in Nigerian schools</p>
           
           <div className="features-grid">
@@ -85,14 +89,13 @@ const Home = () => {
       {/* Nigerian Schools Showcase */}
       <section className="showcase">
         <div className="container">
-          <h2 className="section-title">Empowering Nigerian Youth</h2>
+          <h2 className="section-title">Empowering your school to become a Smart Campus</h2>
           <div className="showcase-content">
             <div className="showcase-text">
-              <h3>Building the Future of Africa's Education</h3>
+              <h3>Together, we’re building the future of African education</h3>
               <p>
-                SmartCampus is committed to revolutionizing education across Nigeria by providing 
-                cutting edge technology that bridges the digital divide and creates equal learning 
-                opportunities for every child.
+                At SmartCampus, we’re redefining how schools teach, learn, 
+                and connect using technology to bridge the digital divide and give every child a fair chance to succeed.
               </p>
               <div className="showcase-features">
                 <div className="showcase-feature">

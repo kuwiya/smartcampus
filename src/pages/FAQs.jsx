@@ -1,4 +1,3 @@
-// src/pages/FAQs.js
 import React, { useState } from 'react';
 import '../styles/FAQs.css';
 
@@ -7,10 +6,30 @@ const FAQs = () => {
   const toggleFAQ = (i) => setActive(active === i ? null : i);
 
   const faqs = [
-    { q: 'What is SmartCampus?', a: 'SmartCampus is a futuristic education platform that connects students, teachers, and parents in one digital ecosystem.' },
-    { q: 'How can I join SmartCampus?', a: 'Simply sign up as a student, teacher, or parent to begin using our digital campus tools.' },
-    { q: 'Is SmartCampus free?', a: 'Yes! Basic access is free, but premium features are available for schools.' },
-    { q: 'Can I access SmartCampus on mobile?', a: 'Absolutely! Our web app is fully responsive and mobile-friendly.' }
+    { 
+      q: 'What is SmartCampus?', 
+      a: 'SmartCampus is a next-generation platform that transforms traditional school websites into fully connected, intelligent digital campuses. It unites students, teachers, and parents in one ecosystem powered by AI, automation, and data-driven insights.' 
+    },
+    { 
+      q: 'How does SmartCampus help my school?', 
+      a: 'We help schools upgrade from simple websites to dynamic online campuses with virtual classrooms, real-time academic tracking, streamlined administration, and enhanced parent engagement.' 
+    },
+    { 
+      q: 'Who can use SmartCampus?', 
+      a: 'SmartCampus is designed for students, teachers, parents, and school administrators — anyone involved in the learning process can benefit from our platform.' 
+    },
+    { 
+      q: 'Is SmartCampus mobile-friendly?', 
+      a: 'Yes! Our platform is fully responsive, allowing students, teachers, and parents to access the campus from any device — desktop, tablet, or mobile.' 
+    },
+    { 
+      q: 'Does SmartCampus use AI?', 
+      a: 'Absolutely! SmartCampus integrates AI to personalize learning experiences, provide insights for teachers, and enhance student engagement.' 
+    },
+    { 
+      q: 'How do we get started?', 
+      a: 'Getting started is simple: Call +234 803 188 7934 or email smartcampus@kuwiya.com to schedule a demo and learn how SmartCampus can transform your school.' 
+    }
   ];
 
   return (

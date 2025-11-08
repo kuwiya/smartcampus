@@ -14,7 +14,7 @@ const Footer = () => {
             <span className="logo-text">SmartCampus</span>
           </div>
           <p className="footer-description">
-            Transforming Nigerian education through innovative technology and AI-powered learning solutions.
+            Reimagining Nigerian education with smart technology, AI-driven learning, and digital transformation for every school.
           </p>
           <div className="social-links">
             <span>📘</span>
@@ -37,22 +37,22 @@ const Footer = () => {
 
         {/* Company Section */}
         <div className="footer-section">
-          <h4>Company</h4>
+          <h4>About</h4>
           <ul>
             <li><Link to="/about">About Us</Link></li>
             <li><Link to="/mission">Our Mission</Link></li>
-            <li><Link to="/careers">Careers</Link></li>
+            {/* <li><Link to="/careers">Careers</Link></li> */}
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
 
         {/* Support Section */}
         <div className="footer-section">
-          <h4>Support</h4>
+          <h4>FAQ</h4>
           <ul>
-            <li><Link to="/helpcenter">Help Center</Link></li>
-            <li><Link to="/privacypolicy">Privacy Policy</Link></li>
-            <li><Link to="/termsofservice">Terms of Service</Link></li>
+            {/* <li><Link to="/helpcenter">Help Center</Link></li> */}
+            {/* <li><Link to="/privacypolicy">Privacy Policy</Link></li> */}
+            {/* <li><Link to="/termsofservice">Terms of Service</Link></li> */}
             <li><Link to="/faqs">FAQs</Link></li>
           </ul>
         </div>
@@ -62,8 +62,14 @@ const Footer = () => {
           <h4>Contact Info</h4>
           <div className="contact-info">
             <p>📍 Lagos, Nigeria</p>
-            <p>📞 +234 901 234 5678</p>
-            <p>✉️ hello@smartcampus.ng</p>
+            <p>📞 +234 803 188 7935</p>
+            <p>💬<a
+                href="https://wa.me/2348123456789"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="whatsapp-link"
+              > +234 812 345 6789</a></p>
+            <p>✉️ smartcampus@kuwiya.com</p>
           </div>
         </div>
       </div>
@@ -71,7 +77,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>
           &copy; {new Date().getFullYear()} SmartCampus Nigeria. All rights reserved. | 
-          Empowering the Future of African Education
+          Empowering the Future of African Education by @kuwiya
         </p>
       </div>
     </footer>
